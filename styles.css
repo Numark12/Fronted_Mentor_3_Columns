@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.attribution { 
+    font-size: 11px; 
+    width: 900px; 
+    height: 480px;
+    display: flex;
+    margin-left: 25%;
+    margin-top: 15em;
+    border-radius: 20px;
+}
+.attribution a {color: hsl(228, 45%, 44%); }
+
+.art1 {
+    padding: 4em;
+    background-color: hsl(31, 77%, 52%);
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.art2 {
+    padding: 4em;
+    background-color: hsl(184, 100%, 22%)
+}
+
+.art3 {
+    padding: 4em;
+    background-color: hsl(179, 100%, 13%);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+svg {
+    margin-top: 5%;
+    margin-bottom: 15%;
+    display: flex;
+}
