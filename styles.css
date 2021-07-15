@@ -13,6 +13,16 @@
 }
 .attribution a {color: hsl(228, 45%, 44%); }
 
+h2 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    color: aliceblue;
+}
 .art1 {
     padding: 4em;
     background-color: hsl(31, 77%, 52%);
