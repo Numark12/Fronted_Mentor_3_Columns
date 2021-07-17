@@ -2,10 +2,11 @@
     margin: 0;
     padding: 0;
 }
+
 .attribution { 
     font-size: 11px; 
     width: 900px; 
-    height: 480px;
+    height: 515px;
     display: flex;
     margin-left: 25%;
     margin-top: 15em;
@@ -15,14 +16,46 @@
 
 h2 {
     font-family: 'Big Shoulders Display', cursive;
-    font-size: 30px;
+    font-size: 40px;
     color: aliceblue;
 }
 
 p {
+    margin-top: 15%;
+    width: 90%;
+    line-height: 1.9em;
+    font-size: 14px;
+    font-weight:100;
     font-family: 'Lexend Deca', sans-serif;
+    color: rgb(241, 240, 238);
+}
+
+.button {
+    margin-top: 35%;
+    height: 3.5em;
+    width: 11em;
+    font-size: 14px;
+    background-color: aliceblue;
+    border-radius: 50px;
+    border: 3px solid aliceblue;
+    font-family: 'Lexend Deca', sans-serif;
+    
+}
+
+.button:hover {
+    background-color: transparent;
     color: aliceblue;
 }
+.art1 > button {
+    color: hsl(31, 77%, 52%);
+}
+.art2 > button {
+    color:  hsl(184, 100%, 22%)
+}
+.art3 > button {
+    color: hsl(179, 100%, 13%);
+}
+
 .art1 {
     padding: 4em;
     background-color: hsl(31, 77%, 52%);
@@ -46,4 +79,25 @@ svg {
     margin-top: 5%;
     margin-bottom: 15%;
     display: flex;
+}
+
+@media(max-width: 600px){
+.attribution { 
+    font-size: 11px; 
+    width: 300px; 
+    height: 515px;
+    display: flex;
+    flex-wrap: wrap;
+    margin:auto;
+    margin-top: 15em;
+    border-radius: 20px;
+}
+
+.art1 {
+    padding: 4em;
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+}
 }
