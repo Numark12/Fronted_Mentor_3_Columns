@@ -82,8 +82,9 @@ svg {
 }
 
 .credits {
+    display: flex;
+    justify-content: center;
     margin-top: 2%;
-    margin-left: 40%;
     font-family: 'Lexend Deca', sans-serif;
     font-size: smaller;
 }
@@ -116,7 +117,6 @@ svg {
 }
 
 .credits {
-    margin-left: 18%;
     margin-top: 5%;
     margin-bottom: 5em;
 }
