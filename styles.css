@@ -5,8 +5,8 @@
 
 .attribution { 
     font-size: 11px; 
-    width: 900px; 
-    height: 515px;
+    width: 930px; 
+    height: 500px;
     display: flex;
     margin-left: 24%;
     margin-top: 15em;
@@ -36,7 +36,7 @@ p {
 }
 
 .button {
-    margin-top: 35%;
+    margin-top: 30%;
     height: 3.5em;
     width: 11em;
     font-size: 14px;
@@ -97,7 +97,7 @@ svg {
 @media(max-width: 600px){
 .attribution { 
     font-size: 11px; 
-    width: 300px; 
+    width: 285px; 
     height: 1502px;
     display: flex;
     flex-wrap: wrap;
