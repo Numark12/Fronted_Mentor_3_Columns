@@ -12,6 +12,11 @@
     margin-top: 15em;
     border-radius: 20px;
 }
+
+.attribution > * {
+    flex-basis: 100%;
+}
+
 a {color: hsl(228, 45%, 44%); text-decoration: none;}
 
 h2 {
@@ -25,7 +30,7 @@ p {
     width: 90%;
     line-height: 1.9em;
     font-size: 14px;
-    font-weight 100;
+    font-weight: 100;
     font-family: 'Lexend Deca', sans-serif;
     color: rgb(241, 240, 238);
 }
@@ -39,7 +44,7 @@ p {
     border-radius: 50px;
     border: 3px solid aliceblue;
     font-family: 'Lexend Deca', sans-serif;
-    
+  
 }
 
 .button:hover {
